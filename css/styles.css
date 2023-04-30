@@ -1,28 +1,41 @@
-.main-font {
-  font-family: "Roboto", "Raleway", sans-serif;
+:root .main-font {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.logo-design {
   color: #4d5ae5;
+}
+.logo-design {
+  color: #2e2f42;
 }
 
 .menu-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.adress-item {
+  font-style: normal;
+}
 .email {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0.02em;
@@ -47,17 +60,22 @@ email:focus {
   color: #404bbf;
 }
 
-.header-one {
-  font-family: "Roboto";
+.header-front {
+  position: absolute;
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 260px;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1, 07px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
-
 .modal-btn {
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -71,13 +89,14 @@ email:focus {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .ord-ser-btn {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -85,6 +104,11 @@ email:focus {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.ord-ser-btn:hover,
+.ord-ser-btn:focus {
+  background-color: #404bbf;
 }
 
 .portfolio-button {
@@ -98,6 +122,19 @@ email:focus {
   height: 48px;
   left: 427px;
   top: 168px;
+}
+
+.button-font {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
 }
 
 .button {
@@ -115,12 +152,15 @@ email:focus {
   flex: none;
   order: 1;
   flex-grow: 0;
+  cursor: pointer;
 }
+
 .button:hover,
 .button:focus {
   color: #ffffff;
   background: #404bbf;
 }
+
 .menu {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -132,4 +172,186 @@ email:focus {
 
 .link {
   text-decoration: none;
+}
+
+.studio-sec-one {
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+  background: #2e2f42;
+}
+
+.studio-sec-two {
+  position: absolute;
+  width: 1128px;
+  height: 104px;
+  left: 156px;
+  top: 792px;
+}
+.h-sec-two {
+  width: 264px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.p-sec-two {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.our-work {
+  position: absolute;
+  width: 323px;
+  height: 40px;
+  left: 559px;
+  top: 1016px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.comp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 360px;
+  height: 300px;
+  left: 156px;
+  top: 1128px;
+}
+
+.smartphone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 360px;
+  height: 300px;
+  left: 540px;
+  top: 1128px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 360px;
+  height: 300px;
+  left: 924px;
+  top: 1128px;
+}
+
+.h-sec-three {
+  position: absolute;
+  width: 162px;
+  height: 40px;
+  left: 639px;
+  top: 1668px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.marc-guerero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+  position: absolute;
+  width: 264px;
+  height: 380px;
+  left: 156px;
+  top: 1780px;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.tom-ford {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+  position: absolute;
+  width: 264px;
+  height: 380px;
+  left: 444px;
+  top: 1780px;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.camila-garcia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+  position: absolute;
+  width: 264px;
+  height: 380px;
+  left: 732px;
+  top: 1780px;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.daniel-wilson {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+  position: absolute;
+  width: 264px;
+  height: 380px;
+  left: 1020px;
+  top: 1780px;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.foot {
+  position: absolute;
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 2280px;
+  background: #2e2f42;
 }
