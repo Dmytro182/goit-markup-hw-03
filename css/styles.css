@@ -1,0 +1,17 @@
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-el:hover,
+.header-el:focus {
+  background-color: #404bbf;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: #404bbf;
+}
