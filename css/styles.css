@@ -16,6 +16,9 @@
 .logo-design {
   color: #2e2f42;
 }
+.logo-design-footer {
+  color: #f4f4fd;
+}
 
 .menu-list {
   display: flex;
@@ -29,6 +32,11 @@
   left: 347px;
   top: 24px;
 }
+
+.list {
+  list-style: none;
+}
+
 .menu-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -38,8 +46,12 @@
   color: #2e2f42;
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
 
@@ -147,30 +159,21 @@ email:focus {
   top: 168px;
 }
 
-.button-font {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-}
-
 .button {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 12px 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   width: 116px;
   height: 48px;
   background: #f4f4fd;
-  color: #404bbf;
+  color: #4d5ae5;
   border: 1px solid#f4f4fd;
   border-radius: 4px;
   flex: none;
@@ -182,20 +185,12 @@ email:focus {
 .button:hover,
 .button:focus {
   color: #ffffff;
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 .menu {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
 }
 
 .section-two {
@@ -297,6 +292,10 @@ email:focus {
   top: 1128px;
 }
 
+.sec-our.team {
+  background-color: #f4f4fd;
+}
+
 .h-sec-three {
   position: absolute;
   width: 162px;
@@ -386,11 +385,19 @@ email:focus {
 }
 
 .h-our-team {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2x;
+  position: absolute;
+  width: 162px;
+  height: 40px;
+  left: 639px;
+  top: 1668px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -410,4 +417,28 @@ email:focus {
   left: 0px;
   top: 2280px;
   background: #2e2f42;
+}
+.port-gallery {
+  width: 290px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.port-description {
+  width: 30px;
+  height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
