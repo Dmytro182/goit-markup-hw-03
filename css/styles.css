@@ -14,9 +14,21 @@
   color: #4d5ae5;
 }
 .logo-design {
-  color: #f4f4fd;
+  color: #2e2f42;
 }
 
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  position: absolute;
+  width: 261px;
+  height: 24px;
+  left: 347px;
+  top: 24px;
+}
 .menu-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -146,6 +158,7 @@ email:focus {
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  background-color: #f4f4fd;
 }
 
 .button {
@@ -372,7 +385,7 @@ email:focus {
   border-radius: 0px 0px 4px 4px;
 }
 
-.h-marc {
+.h-our-team {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2x;
