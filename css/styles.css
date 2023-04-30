@@ -7,7 +7,7 @@
   text-transform: uppercase;
 }
 
-.logo-span {
+.logo-design {
   color: #4d5ae5;
 }
 
@@ -22,6 +22,7 @@
 
 .email {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0.02em;
@@ -34,6 +35,7 @@ email:focus {
 
 .tel {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 1, 5;
   letter-spacing: 0.02em;
