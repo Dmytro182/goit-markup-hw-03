@@ -14,7 +14,7 @@
   color: #4d5ae5;
 }
 .logo-design {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 
 .menu-link {
@@ -31,13 +31,23 @@
   color: #404bbf;
 }
 
+.studio-link {
+  line-height: 1.5;
+}
+
+.studio-link:hover,
+.studio-link:focus {
+  color: #404bbf;
+}
+
 .adress-item {
   font-style: normal;
 }
+
 .email {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -74,6 +84,7 @@ email:focus {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
 .modal-btn {
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -93,7 +104,7 @@ email:focus {
 }
 
 .ord-ser-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -193,7 +204,8 @@ email:focus {
 .h-sec-two {
   width: 264px;
   height: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -217,7 +229,7 @@ email:focus {
   top: 1016px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -273,6 +285,7 @@ email:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  background-color: #f4f4fd;
 }
 
 .marc-guerero {
@@ -345,6 +358,24 @@ email:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+}
+
+.h-marc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2x;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.p-our-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .foot {
