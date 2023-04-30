@@ -146,51 +146,29 @@ email:focus {
   background-color: #404bbf;
 }
 
-.portfolio-button {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 24px;
-  position: absolute;
-  width: 586px;
-  height: 48px;
-  left: 427px;
-  top: 168px;
+.menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
-.button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
+.port-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  width: 116px;
-  height: 48px;
-  background: #f4f4fd;
-  color: #4d5ae5;
-  border: 1px solid#f4f4fd;
-  border-radius: 4px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+.button-color {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
 }
 
-.menu {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+.port-button:hover,
+.port-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .section-two {
