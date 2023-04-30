@@ -1,17 +1,133 @@
+.main-font {
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+.logo-span {
+  color: #4d5ae5;
+}
+
+.menu-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.email {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.email:hover,
+email:focus {
+  color: #404bbf;
+}
+
+.tel {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.tel:hover,
+.tel:focus {
+  color: #404bbf;
+}
+
+.header-one {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1, 07px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* color: #ffffff; */
+}
+
+.modal-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.ord-ser-btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.portfolio-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 586px;
+  height: 48px;
+  left: 427px;
+  top: 168px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 116px;
+  height: 48px;
+  background: #f4f4fd;
+  color: #404bbf;
+  border: 1px solid#f4f4fd;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
+.menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
 .list {
   list-style: none;
 }
 
-a {
+.link {
   text-decoration: none;
-}
-
-.header-el:hover,
-.header-el:focus {
-  background-color: #404bbf;
-}
-
-.portfolio-button:hover,
-.portfolio-button:focus {
-  background-color: #404bbf;
 }
