@@ -131,7 +131,6 @@ email:focus {
   left: 636px;
   top: 428px;
   font-family: "Roboto", sans-serif;
-  background-color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -146,6 +145,7 @@ email:focus {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4d5ae5;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -277,7 +277,7 @@ email:focus {
 }
 
 .sec-our-team {
-  background-color: #f4f4fd;
+  background: #f4f4fd;
 }
 
 .h-sec-three {
@@ -294,6 +294,23 @@ email:focus {
   text-transform: capitalize;
   color: #2e2f42;
   background-color: #f4f4fd;
+}
+
+.h-our-team {
+  position: absolute;
+  width: 162px;
+  height: 40px;
+  left: 639px;
+  top: 1668px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .marc-guerero {
@@ -368,23 +385,6 @@ email:focus {
   border-radius: 0px 0px 4px 4px;
 }
 
-.h-our-team {
-  position: absolute;
-  width: 162px;
-  height: 40px;
-  left: 639px;
-  top: 1668px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
 .h-name {
   width: 127px;
   height: 24px;
@@ -403,7 +403,7 @@ email:focus {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
