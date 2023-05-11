@@ -313,6 +313,9 @@ email:focus {
   color: #2e2f42;
 }
 
+.list-color {
+  background-color: #ffffff;
+}
 .marc-guerrero {
   display: flex;
   flex-direction: column;
