@@ -1,3 +1,8 @@
+:root {
+  --button-color: #4d5ae5;
+  --button-background-color: #F4F4FD;
+}
+
 :root .main-font {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -167,8 +172,8 @@ email:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--button-color);
+  background-color: var(--button-background-color);
 }
 
 .port-button:hover,
