@@ -131,7 +131,7 @@ email:focus {
   left: 636px;
   top: 428px;
   font-family: "Roboto", sans-serif;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -276,7 +276,7 @@ email:focus {
   top: 1128px;
 }
 
-.sec-our.team {
+.sec-our-team {
   background-color: #f4f4fd;
 }
 
@@ -378,20 +378,38 @@ email:focus {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
 
+.h-name {
+  width: 127px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .p-our-team {
+  width: 85px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .foot {
