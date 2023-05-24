@@ -1,7 +1,7 @@
 :root .main-font {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  --brand-color: #ffffff;
 }
 
 .logo {
@@ -30,18 +30,8 @@
   color: #2e2f42;
 }
 
-.menu-list {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-  position: absolute;
-  width: 261px;
-  height: 24px;
-  left: 347px;
-  top: 24px;
-}
+/* .menu-list {
+} */
 
 .list {
   list-style: none;
@@ -81,40 +71,24 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .adress-link:hover,
 .adress-link:focus {
   color: #404bbf;
 }
 
 .header-front {
-  position: absolute;
-  width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 260px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--brand-color);
 }
 
 .modal-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
   font-family: "Roboto", sans-serif;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -123,14 +97,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
   background-color: #4d5ae5;
   flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .ord-ser-btn:hover,
@@ -156,38 +125,21 @@
 
 .port-button:hover,
 .port-button:focus {
-  color: #ffffff;
+  color: var(--brand-color);
   background-color: #404bbf;
 }
 
-.section-two {
-  position: absolute;
-  width: 1128px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
-}
+/* .section-two {
+} */
 
 .studio-sec-one {
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
   background: #2e2f42;
 }
 
-.studio-sec-two {
-  position: absolute;
-  width: 1128px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
-}
+/* .studio-sec-two {
+} */
 
 .h-sec-two {
-  width: 264px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -196,8 +148,6 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
   flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .p-sec-two {
@@ -209,11 +159,6 @@
 }
 
 .our-work {
-  position: absolute;
-  width: 323px;
-  height: 40px;
-  left: 559px;
-  top: 1016px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -223,52 +168,20 @@
   color: #2e2f42;
 }
 
-.comp {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 156px;
-  top: 1128px;
+/* .comp {
 }
 
 .smartphone {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 540px;
-  top: 1128px;
 }
 
 .app {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 924px;
-  top: 1128px;
 }
-
+ */
 .sec-our-team {
   background: #f4f4fd;
 }
 
 .h-sec-three {
-  position: absolute;
-  width: 162px;
-  height: 40px;
-  left: 639px;
-  top: 1668px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -280,11 +193,6 @@
 }
 
 .h-our-team {
-  position: absolute;
-  width: 162px;
-  height: 40px;
-  left: 639px;
-  top: 1668px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -297,83 +205,31 @@
 }
 
 .list-color {
-  background-color: #ffffff;
+  background-color: var(--brand-color);
 }
 .marc-guerrero {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
-  gap: 32px;
-  position: absolute;
-  width: 264px;
-  height: 380px;
-  left: 156px;
-  top: 1780px;
-  background: #ffffff;
-  background-color: #ffffff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
+  background: var(--brand-color);
+  background-color: var(--brand-color);
 }
 
-.our-team-list {
-  display: flex;
-  gap: 32px;
-  position: absolute;
-  top: 1780px;
-}
+/* .our-team-list {
+} */
 
 .our-team-li {
-  padding: 0px 0px 32px;
-  width: 264px;
-  height: 380px;
-  background: #ffffff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
+  background: var(--brand-color);
 }
 
 .camila-garcia {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
-  gap: 32px;
-  position: absolute;
-  width: 264px;
-  height: 380px;
-  left: 732px;
-
-  background: #ffffff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
+  background: var(--brand-color);
 }
 
 .daniel-wilson {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
-  gap: 32px;
-  position: absolute;
-  width: 264px;
-  height: 380px;
-  left: 1020px;
-  top: 1780px;
-  background: #ffffff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
+  background: var(--brand-color);
 }
-
 .h-name {
-  width: 127px;
-  height: 24px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -383,8 +239,6 @@
 }
 
 .p-our-team {
-  width: 85px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -393,40 +247,32 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .foot {
-  position: absolute;
-  width: 1440px;
-  height: 312px;
-  left: 0px;
-  top: 2280px;
   background: #2e2f42;
 }
+
+.info-foot {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
 .port-gallery {
-  width: 290px;
-  height: 24px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
+
 .port-description {
-  width: 30px;
-  height: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
