@@ -1,7 +1,7 @@
 :root .main-font {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  --brand-color: #ffffff;
 }
 
 .logo {
@@ -84,7 +84,7 @@
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--brand-color);
+  color: #ffffff;
 }
 
 .modal-btn {
@@ -126,7 +126,7 @@
 
 .port-button:hover,
 .port-button:focus {
-  color: var(--brand-color);
+  color: #ffffff;
   background-color: #404bbf;
 }
 
@@ -218,7 +218,7 @@
 } */
 
 .our-team-li {
-  background: var(--brand-color);
+  background-color: #ffffff;
 }
 
 .camila-garcia {
