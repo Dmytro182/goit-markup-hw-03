@@ -11,51 +11,63 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="main-font">
     <header class="page-header">
-      <nav>
-        <a class="logo link" href="./index.html"
-          >Web<span class="logo-design">Studio</span></a
-        >
-        <ul class="menu-list list">
-          <li class="menu-item">
-            <a class="menu-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="address-item">
-        <ul class="list">
-          <li>
-            <a class="adress-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="adress-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container page-header-container">
+        <nav class="page-navigation">
+          <a class="logo link" href="./index.html"
+            >Web<span class="logo-design">Studio</span></a
+          >
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address-item">
+          <ul class="address-list list">
+            <li>
+              <a class="address-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="tel-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="studio-sec-one">
-        <h1 class="header-front">Effective Solutions for Your Business</h1>
+        <h1 class="hero-item">
+          Effective Solutions <br />
+          for Your Business
+        </h1>
         <button class="modal-btn ord-ser-btn" type="button">
           Order Service
         </button>
       </section>
-      <section class="section-two">
-        <h2 class="studio-sec-two" hidden>How we are working</h2>
-        <ul class="list">
+      <section>
+        <h2 hidden>How we are working</h2>
+        <ul class="list section-two">
           <li>
             <h3 class="h-sec-two">Strategy</h3>
             <p class="p-sec-two">
@@ -87,7 +99,7 @@
         </ul>
       </section>
       <section>
-        <h2 class="our-work">What are we doing</h2>
+        <h2 class="our-work sec-pad">What are we doing</h2>
         <ul class="list">
           <li class="comp">
             <img
@@ -115,10 +127,10 @@
           </li>
         </ul>
       </section>
-      <section class="sec-our-team">
+      <section class="sec-our-team" id="sec-our-team">
         <h2 class="h-our-team">Our Team</h2>
         <ul class="list our-team-list">
-          <li class="our-team-li list-color">
+          <li class="list-color">
             <img
               src="./images/our-team/marc-guerrero.jpg"
               alt="smiling man"
@@ -128,7 +140,7 @@
             <h3 class="h-name">Mark Guerrero</h3>
             <p class="p-our-team">Product Designer</p>
           </li>
-          <li class="our-team-li list-color">
+          <li class="list-color">
             <img
               src="./images/our-team/tom-ford.jpg"
               alt="smiling man 2"
@@ -138,7 +150,7 @@
             <h3 class="h-name">Tom Ford</h3>
             <p class="p-our-team">Frontend Developer</p>
           </li>
-          <li class="our-team-li list-color">
+          <li class="list-color">
             <img
               src="./images/our-team/camila-garcia.jpg"
               alt="smiling women"
@@ -148,7 +160,7 @@
             <h3 class="h-name">Camila Garcia</h3>
             <p class="p-our-team">Marketing</p>
           </li>
-          <li class="our-team-li list-color">
+          <li class="list-color">
             <img
               src="./images/our-team/daniel-wilson.jpg"
               alt="smiling man 3"
