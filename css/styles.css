@@ -3,6 +3,7 @@
   color: #434455;
   background-color: var(--brand-color);
   --brand-color: #ffffff;
+  --btn-bckg-color: #4d5ae5;
 }
 
 /* RESET */
@@ -63,11 +64,12 @@ img {
   height: 72px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0.15px 0.15px;
   display: flex;
 }
 
 .our-team-container {
-  width: 1440px;
+  width: 1158px;
   height: 732px;
   margin-left: auto;
   margin-right: auto;
@@ -109,6 +111,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .menu {
@@ -116,6 +119,25 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   column-gap: 40px;
+  gap: 40px;
+}
+
+.menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+}
+
+.menu-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .address-item {
@@ -126,6 +148,7 @@ img {
 
 .address-list {
   display: flex;
+  gap: 40px;
 }
 
 .address-link {
@@ -151,31 +174,36 @@ img {
 /* HERO */
 
 .studio-sec-one {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: 1440px;
   height: 600px;
   background: #2e2f42;
   gap: 48px;
+  padding: 188px 0;
 }
 
 .modal-btn {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+  display: block;
 }
 
 .ord-ser-btn {
   min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
+  border: none;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4d5ae5;
+  background-color: var(--btn-bckg-color);
+  cursor: pointer;
 }
 
 .ord-ser-btn:hover,
@@ -207,6 +235,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--brand-color);
+  max-width: 496px;
 }
 
 .h-sec-two {
@@ -230,30 +259,13 @@ img {
 
 /* /HERO */
 
-.menu-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.menu-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
 /* OUR WORK */
 
 .section-two {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 120px;
+  padding: 188px 0;
 }
 
 .our-work {
