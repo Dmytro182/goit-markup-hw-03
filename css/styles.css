@@ -60,11 +60,11 @@ img {
 }
 
 .container {
-  width: 1440px;
+  width: 1158px;
   height: 72px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0.15px 0.15px;
+  padding: 0 15px;
   display: flex;
 }
 
@@ -128,7 +128,6 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .menu-link {
@@ -138,6 +137,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .address-item {
